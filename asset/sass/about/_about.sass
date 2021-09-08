@@ -1,0 +1,299 @@
+.AbtPgeHdrmn 
+    width: 100% 
+    display: block 
+    position: relative 
+    margin-top: 106px
+    padding: 50px 0px 90px 
+    .CntMnVlCl12mn
+        display: flex 
+        align-items: center 
+        justify-content: space-between 
+        .ClmnSvr6mn 
+            width: 60% 
+            position: relative 
+            h1 
+                font-size: 60px
+                line-height: 1
+                margin-bottom: 30px
+                font-weight: 700
+                text-transform: uppercase 
+            p 
+                font-size: 16px 
+                color: #000000 
+                font-weight: 500 
+                margin-bottom: 30px 
+                &:last-child 
+                    margin-bottom: 0px 
+
+            &:last-child 
+                width: 35% 
+                position: relative 
+                img 
+                    width: 100% 
+
+.HwErkSemn 
+    width: 100% 
+    position: relative     
+    display: block 
+    height: 80vh  
+    .HwrWeRkVdeo 
+        width: 100% 
+        position: relative 
+        display: block 
+        height: 100% 
+        &:after  
+            @include aftrBeforBX(100%,100%,0,0,0,0)
+            background: rgba(0, 0, 0, 1.20) 
+            opacity: 0.7
+        video 
+            width: 100% 
+            position: relative 
+            object-fit: cover 
+            height: 100% 
+    .HwrWeWrk
+        position: absolute
+        z-index: 1
+        width: 50%
+        max-width: 1260px
+        margin: 0 auto
+        top: 50%
+        left: 0%
+        transform: translate(10%, -50%)     
+        .HwWrWrkCnt 
+            h2 
+                font-size: 48px 
+                color: #ffffff 
+                font-family: $font-bold 
+                text-transform: uppercase 
+                margin-bottom: 20px    
+
+            p 
+                color: #ffffff 
+        .TemCl12mnSemn 
+            margin-top: 50px 
+            display: flex 
+            justify-content: space-between  
+            .Clmnv4
+                width: 22% 
+                position: relative
+            b 
+                color: #ff7f00 
+                font-family: 'Montserrat', sans-serif 
+                text-align: center 
+                display: block 
+                font-size: 30px 
+            p
+                font-size: 14px 
+                color: #ffffff      
+                text-align: center 
+
+        .ReqUstDemoMn 
+            width: 100% 
+            position: relative    
+            margin-top: 50px  
+            .ReqDem
+                display: inline-block 
+                a 
+                    display: inline-block
+                    color: #000000
+                    padding: 10px 20px
+                    background: #fff
+                    border-radius: 30px
+                    text-transform: uppercase
+                    font-weight: 700
+
+
+.TemNAmeval 
+    width: 100% 
+    position: relative 
+    display: block 
+    padding: 60px 0px 90px 
+    .TemCl12mn 
+        display: flex
+        justify-content: left
+        flex-wrap: wrap 
+        .cl4mnSwth 
+            width: 30% 
+            position: relative 
+            margin-right: 30px 
+            cursor: pointer 
+            margin-bottom: 30px 
+            overflow: hidden 
+            &:hover 
+                .TemMnCntMn 
+                    opacity: 1 
+                    visibility: visible 
+                    bottom: 22px  
+            .TemImgMn
+                width: 100% 
+                position: relative
+                &:after  
+                    @include aftrBeforBX(100%,100%,0,0,0,0)
+                    background: rgba(0, 0, 0, 1.20) 
+                    opacity: 0.4 
+                img 
+                    display: block 
+                    width: 100% 
+            &:nth-child(3n - 3) 
+                margin-right: 0px 
+
+            .TemMnCntMn 
+                display: flex
+                align-items: center
+                justify-content: space-between
+                padding: 0px 25px
+                position: absolute
+                width: 100%
+                bottom: -140px  
+                opacity: 0 
+                visibility: hidden 
+                transition: all 1s ease 
+                .CntWth 
+                    width: 40px 
+                    height: 40px 
+                    background-color: #ff7f00 
+                    border-radius: 50% 
+                    display: flex 
+                    align-items: center  
+                    .lftCr 
+                        border: solid #ffffff 
+                        border-width: 0 1px 1px 0 
+                        display: inline-block 
+                        padding: 0px 
+                        width: 12px
+                        height: 12px 
+                        transform: rotate(-45deg) 
+                        margin: 0 auto 
+                        margin-left: 12px 
+                .CntWthTem 
+                    position: relative 
+                    h4 
+                        font-size: 24px 
+                        color: #ffffff 
+                        font-weight: 700 
+                        text-transform: uppercase 
+                    small 
+                        display: block
+                        text-align: right
+                        color: #fff
+                        font-weight: 600    
+
+.PrdctHdng 
+    .Prgr 
+        width: 50% 
+        text-align: center 
+        margin: 0 auto 
+        color: #ffffff 
+        font-weight: 600  
+
+
+.onnPopup
+    position: fixed
+    top: 0px
+    left: 0px
+    background: #000000e0
+    height: 100% 
+    width: 100% 
+    z-index: 10  
+    align-items: center 
+    display: none 
+    .Inn_0nnPopup
+        align-items: flex-start
+        width: 70%
+        margin: auto
+        background: #fff
+        padding: 40px 
+        overflow: hidden
+        display: none 
+        position: relative
+        .PopBxCls 
+            background-position: 0px -263px
+            width: 37px 
+            display: inline-block
+            vertical-align: middle
+            cursor: pointer 
+            color: black 
+            position: absolute
+            right: -10px
+            top: 10px 
+        @include respond-to(screen-767)
+            overflow: auto
+            padding: 15px
+        .wrpr_abtimg
+            width: 36% 
+            img 
+                width: 100% 
+            @include respond-to(screen-767)
+                height: 200px
+                margin-bottom: 20px
+        .wrpr_abtinfo 
+            width: 67% 
+            
+            padding-right: 20px 
+            @include respond-to(screen-767)
+                .mCSB_inside > .mCSB_container
+                    position: relative !important
+                    margin-right: 30px !important
+
+            p  
+                text-align: justify
+                margin-bottom: 20px
+                color: #666
+                font-size: 14px 
+            .mid_txt
+                h3 
+                    font-size: 28px 
+                    font-weight: 600 
+                    color: #000000 
+                    line-height: 28px 
+                    margin-bottom: 5px 
+                    @include respond-to(screen-767)
+                        font-size: 24px 
+                        margin-bottom: 0px 
+                        text-align: center 
+                p 
+                    font-size: 16px
+                    font-weight: 600 
+                    color: rgba(0, 0, 0, 0.5411764705882353) 
+                    line-height: 20px 
+                    margin-bottom: 20px 
+                    @include respond-to(screen-767)
+                        font-size: 14px
+                        margin-bottom: 10px
+                        text-align: center
+        img
+            padding-right: 20px  
+            width: 100% 
+            @include respond-to(screen-767)
+                width: 100%
+                padding-right: 0px
+                height: 100%
+                object-fit: contain
+                margin-bottom: 20px
+        
+    .active_tm
+        display: flex
+        @include respond-to(screen-767)
+            display: inline-block
+            height: auto
+            width: 100%
+.add_onnPopup
+    display: flex     
+.DsyFlex 
+    display: flex                  
+
+.HrmSwnln 
+    max-height: 450px  
+    overflow: auto 
+    padding-right: 20px 
+
+.HrmSwnln::-webkit-scrollbar 
+    width: 4px 
+.HrmSwnln::-webkit-scrollbar-track 
+    background: #fff  
+.HrmSwnln::-webkit-scrollbar-thumb 
+    background: #f47529  
+.HrmSwnln::-webkit-scrollbar-thumb:hover 
+    background: #f47529  
+
+    

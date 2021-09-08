@@ -1,0 +1,93 @@
+header 
+    position: fixed
+    width: 100%
+    top: 0px
+    left: 0px
+    z-index: 9
+    padding: 15px 0px 
+    transition: all 1s ease 
+    &:before 
+        width: 100%
+        height: 100%
+        top: -100%
+        right: auto
+        bottom: auto
+        left: 0px
+        position: absolute
+        content: ""
+        background-color: #000000
+        -webkit-transition: all .5s
+        transition: all .5s
+    @include respond-to(screen-767)
+        padding: 0
+    nav 
+        width: 100% 
+        position: relative 
+        display: flex 
+        justify-content: space-between 
+        align-items: center 
+        .LngSwnVr 
+            position: absolute 
+            left: 50% 
+            transform: translate(-50%, 0%) 
+            a 
+                display: inline-block 
+        .NvrSenVr
+            position: relative 
+            display: inline-block 
+            .NvrClvr 
+                position: relative
+                display: inline-block
+                width: 30px
+                line-height: 0 
+                cursor: pointer
+                span 
+                    display: inline-block 
+                    width: 100% 
+                    height: 1.5px 
+                    background-color: #474444
+        .SrcmnVrMn 
+            display: flex 
+            align-items: center 
+            .srmnsldrvr
+                position: relative
+                display: none 
+                input 
+                    border: none 
+                    border-bottom: 1px solid #474444 
+                label 
+                    position: absolute 
+                    left: 0 
+                    font-size: 14px 
+
+
+
+
+
+
+
+
+.title 
+    width: 100%
+    position: relative
+    display: inline-block
+
+.title h1,
+.title h2,
+.title h3,
+.title h4,
+.title h5,
+.title h6 
+    font-size: 66px
+    line-height: 51px
+    color: #000
+
+.title p 
+    font-size: 14px
+    line-height: 28px
+    text-align: left
+
+.CmnPage
+    width: 100%
+    position: relative 
+    display: inline-block

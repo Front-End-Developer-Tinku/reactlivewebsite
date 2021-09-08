@@ -1,0 +1,562 @@
+.BackImgCrSec 
+    width: 100% 
+    position: relative 
+    background-image: url('../images/prosuctimgbnr.jpg')
+    background-attachment: fixed 
+    background-position: top center 
+    height: 70vh 
+    background-size: cover 
+    background-repeat: no-repeat 
+    @include respond-to(screen-767) 
+        height: 320px
+    &:after 
+        @include aftrBeforBX(100%,100%,0,0,0,0) 
+        background-color: rgba(0, 0, 0, 0.82) 
+    .container 
+        height: 100% 
+        .ArrowSecCr 
+            position: absolute 
+            bottom: 97px 
+            z-index: 1 
+            cursor: pointer
+            @include respond-to(screen-767) 
+                display: none
+            .ArwSec 
+                width: 35px
+                height: 32px
+                background-position: 0 -161px 
+        .GrowSec 
+            width: 50%  
+            top: 50% 
+            position: relative 
+            display: block 
+            transform: translate(0, -50%) 
+            height: max-content 
+            z-index: 1
+            @include respond-to(screen-767) 
+                margin-top: 50px
+            p 
+               font-size: 16px 
+               font-weight: 500  
+               color: $white 
+            h1 
+                font-size: 48px 
+                font-family: $font-bold  
+                color: $white 
+                @include respond-to(screen-767) 
+                    font-size: 24px
+                    line-height: 30px
+            p:last-child 
+                font-size: 14px         
+            .LnSec 
+                width: 40px 
+                display: inline-block 
+                height: 1px 
+                background-color: #ffffff 
+                vertical-align: middle 
+                margin-right: 10px 
+
+.WhYwrkUs 
+    width: 100% 
+    position: relative 
+    display: block 
+    padding: 60px 
+    @include respond-to(screen-1300) 
+        padding: 20px 0px
+    .WhyWrkus12Col 
+        width: 100% 
+        display: block 
+        position: relative
+        h2 
+            font-size: 48px 
+            font-family: $font-bold 
+            color: $black 
+            text-align: center  
+            @include respond-to(screen-767) 
+                font-size: 24px
+                line-height: 30px 
+                margin-bottom: 5px
+        p 
+            font-size: 14px 
+            font-weight: 500  
+            color: $black 
+            text-align: justify 
+        .Col12SecApply 
+            width: 100% 
+            display: flex 
+            flex-wrap: wrap 
+            margin-top: 50px 
+            @include respond-to(screen-767) 
+                margin-top: 20px 
+            .Col4SecApply 
+                width: 31% 
+                margin-right: calc(31% - 28%)  
+                background-color: #ededed 
+                padding: 40px 20px  
+                @include respond-to(screen-767) 
+                    width: 100%;
+                    margin-right: 0px;
+                    padding: 15px 15px;
+                h3 
+                    font-size: 28px 
+                    font-family: $font-bold 
+                    margin-bottom: 25px 
+                    @include respond-to(screen-767) 
+                        font-size: 24px;
+                        margin-bottom: 0px;
+                p 
+                    font-size: 14px 
+                    font-weight: 500  
+                    text-align: left   
+                     
+                &:nth-child(2)
+                    background-color: transparent 
+                    padding: 0px 
+                    img 
+                        width: 100% 
+                        height: 100%  
+                &:nth-child(3) 
+                    margin-right: 0% 
+                    background-color: #eeeeee           
+
+.BckImgSec 
+    width: 100% 
+    position: relative 
+    display: block 
+    background-image: url('../images/carbckimg.jpg') 
+    background-attachment: fixed 
+    background-size: cover 
+    height: 100vh 
+    @include respond-to(screen-767) 
+        height: auto
+    .container 
+        display: block 
+        .BoxSecShowNow 
+            padding: 38px;
+            background-color: #ffffff;
+            position: absolute;
+            display: block;
+            width: 730px;
+            right: 120px;
+            margin-top: 0;
+            top: 50%;
+            transform: translate(0px, -50%); 
+            @include respond-to(screen-767) 
+                padding: 20px;
+                width: 100%;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            h5 
+                font-size: 28px 
+                font-family: $font-bold 
+                color: $black 
+                margin-bottom: 10px   
+                @include respond-to(screen-767) 
+                    font-size: 24px;
+                    margin-bottom: 0px;
+            p 
+                font-size: 14px 
+                font-weight: 500  
+                color: $black 
+                margin-bottom: 15px 
+                @include respond-to(screen-767) 
+                    margin-bottom: 10px
+                &:last-child 
+                    margin-bottom: 0px 
+
+.CrSecFrm 
+    width: 100% 
+     
+    position: relative  
+    display: block 
+    padding: 70px 0px 
+    @include respond-to(screen-767) 
+        padding: 20px 0px 
+    .CarfOpperSec 
+        width: 100% 
+        display: inline-block 
+        position: relative 
+        .ColCr9 
+            width: 67%
+            position: relative
+            display: inline-block   
+            @include respond-to(screen-1300) 
+                width: 100%
+            p 
+                font-size: 18px 
+                font-weight: 500
+                color: $black  
+                .line 
+                    width: 40px 
+                    height: 1px 
+                    background-color: $black 
+                    display: inline-block 
+                    vertical-align: middle 
+            h4 
+                font-size: 36px 
+                color: $black 
+                font-family: $font-bold 
+                margin-bottom: 40px 
+                @include respond-to(screen-767) 
+                    font-size: 24px 
+                    margin-bottom: 15px 
+            .OppSecRpt 
+                width: 100% 
+                position: relative 
+                display: block   
+                border-bottom: 1px solid #e5e5e5   
+                margin-bottom: 25px  
+                padding-bottom: 15px  
+                @include respond-to(screen-767) 
+                    margin-bottom: 10px  
+                    padding-bottom: 10px  
+                .CreNameSec 
+                    width: 100% 
+                    display: block 
+                    padding: 15px 0px 
+                    cursor: pointer 
+                    position: relative 
+                    @include respond-to(screen-767) 
+                        padding: 5px 0px 
+                    h5 
+                        font-size: 18px  
+                        color: $black 
+                        position: relative 
+                        @include respond-to(screen-767) 
+                            font-size: 14px 
+                        span 
+                            font-weight: 400   
+                            position: absolute 
+                            color: #666666 
+                            left: 50% 
+                            transform: translate(-50%,0px) 
+                            @include respond-to(screen-767) 
+                                position: unset
+                                width: 100%;
+                                display: block;
+                                color: #00000073;
+                                transform: unset;
+                    .DrpDownSec 
+                       position: absolute 
+                       right: 0px 
+                       top: 50% 
+                       transform: translate(0, -50%)
+                    .DrpDownSec.MinusAdd 
+                        .DrpDeownImgSec 
+                            transform: rotate(180deg)             
+                .CntSecDrpDown 
+                    width: 100% 
+                    position: relative 
+                    display: none  
+                    .CntReslity 
+                        p 
+                            font-size: 14px 
+                            font-weight: 500 
+                            color: #000000 
+                            margin-bottom: 10px 
+                        h4, h3 
+                            font-family: "Montserrat", sans-serif  
+                            font-size: 18px 
+                            font-weight: 500 
+                            color: #000000 
+                            position: relative  
+                            margin: 10px 0px 
+                        ul 
+                            padding-left: 35px 
+                            margin-bottom: 30px 
+                            @include respond-to(screen-767) 
+                                padding-left: 0px 
+                                margin-bottom: 0px    
+                            li 
+                                padding: 3px 0px
+                                font-size: 14px 
+                                text-align: left 
+                                position: relative 
+                                font-weight: 500    
+                                padding-left: 22px  
+                                color: #333333  
+                                &:after 
+                                    @include aftrBeforBX(0.6em,0.6em,9px,auto,auto,0)  
+                                    border-radius: 50% 
+                                    display: inline-block 
+                                    background-color: #ff7f00               
+
+        .ColCr3  
+            width: 30%  
+            position: sticky 
+            display: block 
+            top: 45px 
+            float: right
+            @include respond-to(screen-1300) 
+                width: 100% 
+            .FrmSecShowCr 
+                width: 100% 
+                position: relative 
+                display: block 
+                padding: 35px 
+                background: #eeeeee 
+                .BtnSumnit 
+                    margin-top: 15px 
+                    .BtnSymt
+                        color: #ffffff 
+                        position: relative 
+                        padding: 20px 33px 15px 
+                        span 
+                            display: block 
+                            position: relative
+                            color: #ffffff 
+                            font-weight: 500 
+                        &::before
+                            z-index: 0   
+                @include respond-to(screen-767) 
+                    padding: 15px 
+                h6 
+                    font-size: 24px 
+                    color: $black 
+                    font-family: $font-bold 
+                .frm-body 
+                     
+                    display: block 
+                    position: relative 
+                    width: 100% 
+                    margin-top: 30px 
+                    @include respond-to(screen-767) 
+                        margin-top: 10px;
+                    .from-grp 
+                        position: relative 
+                         
+                        display: block 
+                        width: 100% 
+                        margin-top: 0px 
+                    .FrmGrp
+                         
+                        width: 100% 
+                        position: relative 
+                        display: block 
+                        .banForm-grp_ImgH 
+                            line-height: 0 
+                            position: relative
+                            .fileLbl_ImgH 
+                                font-size: 16px
+                                width: 100%
+                                height: 42px
+                                line-height: 42px
+                                border: none
+                                border-radius: 0px 
+                                color: #000000 
+                                cursor: pointer
+                                background:#d3cfcf  
+                                filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr=#e1e1e1, endColorstr=#e1e1e1)
+                                transition: all .5s
+                                text-align: center
+                                display: block
+                                text-align: left
+                                padding: 0 18px
+                                position: relative 
+                                small 
+                                    width: calc(100% - 74px) 
+                                    white-space: nowrap
+                                    height: 100%
+                                    overflow: hidden
+                                    text-overflow: ellipsis 
+                                    display: block 
+                                    position: absolute 
+                                    left: 12px
+                                    font-size: 14px 
+                                    top: 0px  
+                                    color: $black   
+                                    font-weight: 500 
+                                span 
+                                    width: auto 
+                                    height: 24px 
+                                    position: absolute 
+                                    top: 41% 
+                                    right: 8px 
+                                    transform: translateY(-50%) 
+                                    left: auto        
+                                    font-weight: 500 
+                            .fileInpt_ImgH 
+                                display: none 
+                            .banFrm-cntrl_ImgH 
+                                font-size: 16px 
+                                padding: 0 18px 
+                                width: 100% 
+                                height: 100% 
+                                line-height: 46px 
+                                position: absolute
+                                top: 0
+                                left: 0
+                                cursor: pointer
+                    
+
+
+                    // SelctType
+                        
+                    .sectBox 
+                        position: relative 
+                         
+                        display: block 
+                        width: 100%  
+                        margin-bottom: 25px 
+                        select 
+                            padding: 0 0px 
+                            padding-right: 10px 
+                            font-size: 14px 
+                            height: 40px 
+                            line-height: 40px 
+                            border: none 
+                            border-bottom: 1px solid #000  
+                            border-radius: 0px 
+                            cursor: pointer 
+                            width: 100%
+                            background-color: transparent 
+                            background: url(../icon/down-arrow-select1.png) no-repeat right 
+                            -webkit-appearance: none 
+                            background-position-x: 100% 
+                            font-weight: 500  
+                    fieldset 
+                        width: 100% 
+                        padding: 0
+                        position: relative 
+                        
+                        margin-bottom: 20px 
+                        @include respond-to(screen-767) 
+                            width: 100%  
+                        .frm-cntrl 
+                            width: 100%
+                            height: 40px
+                            line-height: 40px
+                            padding: 0
+                            background: transparent
+                            border: none
+                            border-bottom: 1px solid $black 
+                            color: #000000
+                            border-radius: 0px 
+                            &:focus ~ .label-wrap  
+                                top: -1px  
+                                padding: 0px  
+                                opacity: 1  
+                            ~ 
+                                .hasVal 
+                                    top: -1px 
+                                    padding: 0px 
+                                    opacity: 1    
+                                    @include respond-to(screen-767) 
+                                        font-size: 12px; 
+                            &:focus ~ 
+                                .border-bottom-animation.left 
+                                    background: #000000  
+                                    width: 100% 
+                        .frm-cntrl.border-bottom 
+                            position: relative 
+                            background: transparent 
+                            padding: 0 
+                            border-bottom: 1px solid $black           
+                        .frm-cntrl.border-bottom ~ .border-bottom-animation 
+                            position: absolute 
+                            content: "" 
+                            width: 0 
+                            background: #000  
+                            height: 2px  
+                            z-index: 1 
+                            transition: all 1s ease   
+                            left: 0 
+                            bottom: 0         
+                            
+                        .label-wrap 
+                            position: absolute
+                            pointer-events: none
+                            left: 0
+                            opacity: 1 
+                            top: 14px
+                            font-size: 14px 
+                            transition: all 1s ease 
+                            font-weight: 500     
+                        &:not(:last-child)  
+                            margin-right: 15px 
+                            @include respond-to(screen-767) 
+                                margin-right: 0px  
+                                
+                    .PhoneNoSho 
+                        width: 100% 
+                        padding: 0
+                        position: relative
+                        margin-bottom: 25px 
+                    .MessageSec 
+                        width: 100% 
+                         
+                        padding: 0
+                        position: relative
+                        
+                        margin-bottom: 25px 
+                        .frm-cntrl 
+                            height: 100px 
+                            @include respond-to(screen-767) 
+                                height: 60px 
+                .BtnPopup 
+                     
+                    position: relative 
+                    display: block 
+                    width: 100% 
+                    margin-top: 25px 
+                    text-align: center 
+                    @include respond-to(screen-767) 
+                        margin-top: 10px 
+                    .BtnSubSecShow 
+                        padding: 10px 20px
+                        background: black  
+                        text-transform: capitalize 
+                        width: 100% 
+                        border-radius: 0px
+                        font-size: 14px
+                        font-weight: 500
+                        border: none  
+                        color: $white 
+                        display: inline-block
+                        overflow: hidden
+                        position: relative
+                        -webkit-transition: all 1s ease
+                        transition: all 1s ease
+                        text-align: center 
+                        span 
+                            z-index: 1 
+                            font-weight: 500  
+                            transition: all 1s ease 
+                            position: relative 
+                        &:hover 
+                            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) 
+                            span 
+                                color: #000
+                        &:after 
+                            @include aftrBeforBX(100%,100%,0,0,0,0)  
+                            transition: all 1s ease 
+                            z-index: 0 
+                            border-radius: 0px 
+                            background-color: #ffffff  
+                            transform: translateX(-100%)  
+                        &:hover:after  
+                            transform: translateX(0) 
+                            z-index: 0   
+
+.BtnSumnit
+    width: 100% 
+    text-align: center 
+    a 
+        display: inline-block
+        position: relative
+        padding: 20px 47px 15px
+        color: #fff         
+        &:before 
+            position: absolute
+            left: 0
+            right: 0
+            content: ''
+            background-image: url(../icon/btniconshw.png)
+            background-repeat: no-repeat
+            height: 100%
+            bottom: 0
+            width: 100%
+            background-size: cover
+            z-index: -1
+
+ 
